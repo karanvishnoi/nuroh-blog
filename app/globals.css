@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #FDF6EE;
+  color: #3B1F0A;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+.prose h2 { font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 700; margin-top: 2rem; margin-bottom: 0.75rem; color: #3B1F0A; }
+.prose h3 { font-family: 'Playfair Display', serif; font-size: 1.25rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.5rem; color: #3B1F0A; }
+.prose p { margin-bottom: 1rem; line-height: 1.75; color: #4A3F35; }
+.prose ul, .prose ol { margin-bottom: 1rem; padding-left: 1.5rem; color: #4A3F35; }
+.prose li { margin-bottom: 0.25rem; line-height: 1.75; }
+.prose strong { font-weight: 600; color: #3B1F0A; }
+.prose a { color: #C4622D; text-decoration: underline; }
+.prose a:hover { color: #A04E22; }
+.prose blockquote { border-left: 3px solid #C4622D; padding-left: 1rem; font-style: italic; color: #6B5D4F; margin: 1.5rem 0; }
