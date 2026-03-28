@@ -1,0 +1,15 @@
+
+=== Day 1 | 2026-03-28 ===
+
+❌ Failed: Jaipur cafe culture — variation 1 — 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011CZWD8xTUuaBmxjCA2w3fk"}
+❌ Failed: best cafes in Jaipur 2026 — variation 2 — 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011CZWD98mMYJK7udRvk9K6u"}
+❌ Failed: Pink City coffee scene — variation 3 — 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011CZWD9HnpuoyyTEde6tpdv"}
+❌ Failed: cafe hopping Jaipur guide — variation 4 — 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011CZWD9SkLbympWYV5v7bUx"}
+❌ Failed: why cafes are booming in Jaipur — variation 5 — 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011CZWD9bi6E3QMrxGydB2XE"}
+❌ Failed: Jaipur cafe culture — variation 6 — 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011CZWD9kfbidYRhCFsZvPYC"}
+❌ Failed: best cafes in Jaipur 2026 — variation 7 — 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011CZWD9uZsuxJ2vPBH1E6wz"}
+❌ Failed: Pink City coffee scene — variation 8 — 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011CZWDA5QyA9pRrmFM9gGLH"}
+❌ Failed: cafe hopping Jaipur guide — variation 9 — 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011CZWDAFN1UbJLnqQKSemYM"}
+❌ Failed: why cafes are booming in Jaipur — variation 10 — 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011CZWDAQMVicB9T8ia1nmhG"}
+
+Total: 0/10 posts generated
