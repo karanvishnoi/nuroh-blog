@@ -6,6 +6,9 @@ on:
     - cron: '30 2 * * *'
   workflow_dispatch: # Manual trigger
 
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -13,18 +16,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
           cache: 'npm'
 
       - name: Install dependencies
         run: npm ci
-
-      - name: Install tsx
-        run: npm install -g tsx
 
       - name: Generate daily blogs
         env:
@@ -36,7 +38,7 @@ jobs:
           git config user.name "Nuroh Blog Bot"
           git config user.email "bot@nuroh.in"
           git add content/ logs/
-          git diff --staged --quiet || git commit -m "📝 Auto-generated daily blog posts — $(date '+%Y-%m-%d')"
+          git diff --staged --quiet || git commit -m "Auto-generated daily blog posts — $(date '+%Y-%m-%d')"
           git push
 
       - name: Trigger Vercel Deploy
@@ -47,6 +49,6 @@ jobs:
 
       - name: Summary
         run: |
-          echo "## 📝 Daily Blog Generation Complete" >> $GITHUB_STEP_SUMMARY
+          echo "## Daily Blog Generation Complete" >> $GITHUB_STEP_SUMMARY
           echo "**Date:** $(date '+%Y-%m-%d')" >> $GITHUB_STEP_SUMMARY
           echo "**Posts generated:** $(ls content/blogs/$(date '+%Y-%m-%d')/*.mdx 2>/dev/null | wc -l)" >> $GITHUB_STEP_SUMMARY
